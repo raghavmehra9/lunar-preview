@@ -1,4 +1,5 @@
-import BirthCharts from "@/components/birth-chart/BirthCharts";
+import BirthCharts from "../../../components/birth-chart/BirthCharts";
+
 
 const Premium = () => {
   return <BirthCharts showNavigation={false} />;
