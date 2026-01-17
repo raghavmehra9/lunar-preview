@@ -1,4 +1,5 @@
-import BirthCharts from "../../../components/birth-chart/BirthCharts";
+import BirthCharts from "../../../birth-chart/BirthCharts";
+
 
 
 const Premium = () => {
