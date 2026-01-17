@@ -94,6 +94,7 @@
     "owner": "amankesarwani49",
     "platforms": [
       "ios",
+      "web",
       "android"
     ]
   }
