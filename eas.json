@@ -1,0 +1,102 @@
+{
+  "cli": {
+    "version": ">= 14.4.1",
+    "appVersionSource": "local"
+  },
+  "build": {
+    "internal": {
+      "distribution": "store",
+      "releaseChannel": "internal",
+      "ios": {
+        "buildConfiguration": "Release"
+      },
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_BASE_URL": "https://lunar-backend.tantra-gyan.com",
+        "EXPO_PUBLIC_API_VERSION": "/api/v1",
+        "EXPO_PUBLIC_API_KEY": "abc123",
+        "EXPO_PUBLIC_WEB_CLIENT_ID": "815435126405-5dbnkpk6c6p000qujc08arffqvu7ebg8.apps.googleusercontent.com",
+        "EXPO_PUBLIC_IOS_CLIENT_ID": "815435126405-kf1eug6odov5bgmhmijo6q0epvj2qg4n.apps.googleusercontent.com",
+        "EXPO_PUBLIC_ANDROID_CLIENT_ID": "815435126405-deorlads6hebgmkuaunlauc65vcndamk.apps.googleusercontent.com",
+        "EXPO_PUBLIC_FACEBOOK_APP_ID": "1427320737980320",
+        "EXPO_PUBLIC_GOOGLE_PLACES_API": "AIzaSyAsEyntIOPKup0qoalW4AUKuAiuo6IeMiI",
+        "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_51QkLTWRpGvQsz2528XRVq8Fx7eN3RZsSiLd5dHfvIlLKh1pzFQP3MSGszDq4zFw6UPd2x6xK8TcL0XGdUfTYsR1O005Rq36v5Z",
+        "EXPO_PUBLIC_REDIRECT_CALENDLY": "https://calendly.com/raghavmehra8991/astrology?utm_campaign=",
+        "EXPO_PUBLIC_CRYPTO_SECRET_KEY": "kasfksalafkgaks3423jaskfansfkafnkasfjksafnjsfk3242k4lasfmlmfalfslkfasnflasfl324342",
+        "EXPO_PUBLIC_AUDIO_SECRET_KEY": "a3d9f6e8c4b1d3e8a2f7b6d9e4c5a1b2f8d9e7c6a3b5f1d8c2e7a4b9d5c6e3f",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+      },
+      "autoIncrement": true
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "simulator": false
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_BASE_URL": "https://lunar-backend.tantra-gyan.com",
+        "EXPO_PUBLIC_API_VERSION": "/api/v1",
+        "EXPO_PUBLIC_API_KEY": "abc123",
+        "EXPO_PUBLIC_WEB_CLIENT_ID": "815435126405-5dbnkpk6c6p000qujc08arffqvu7ebg8.apps.googleusercontent.com",
+        "EXPO_PUBLIC_IOS_CLIENT_ID": "815435126405-kf1eug6odov5bgmhmijo6q0epvj2qg4n.apps.googleusercontent.com",
+        "EXPO_PUBLIC_ANDROID_CLIENT_ID": "815435126405-deorlads6hebgmkuaunlauc65vcndamk.apps.googleusercontent.com",
+        "EXPO_PUBLIC_FACEBOOK_APP_ID": "1427320737980320",
+        "EXPO_PUBLIC_GOOGLE_PLACES_API": "AIzaSyAsEyntIOPKup0qoalW4AUKuAiuo6IeMiI",
+        "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_51QkLTWRpGvQsz2528XRVq8Fx7eN3RZsSiLd5dHfvIlLKh1pzFQP3MSGszDq4zFw6UPd2x6xK8TcL0XGdUfTYsR1O005Rq36v5Z",
+        "EXPO_PUBLIC_REDIRECT_CALENDLY": "https://calendly.com/raghavmehra8991/astrology?utm_campaign=",
+        "EXPO_PUBLIC_CRYPTO_SECRET_KEY": "kasfksalafkgaks3423jaskfansfkafnkasfjksafnjsfk3242k4lasfmlmfalfslkfasnflasfl324342",
+        "EXPO_PUBLIC_AUDIO_SECRET_KEY": "a3d9f6e8c4b1d3e8a2f7b6d9e4c5a1b2f8d9e7c6a3b5f1d8c2e7a4b9d5c6e3f",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_BASE_URL": "https://lunar-backend.tantra-gyan.com",
+        "EXPO_PUBLIC_API_VERSION": "/api/v1",
+        "EXPO_PUBLIC_API_KEY": "abc123",
+        "EXPO_PUBLIC_WEB_CLIENT_ID": "815435126405-5dbnkpk6c6p000qujc08arffqvu7ebg8.apps.googleusercontent.com",
+        "EXPO_PUBLIC_IOS_CLIENT_ID": "815435126405-kf1eug6odov5bgmhmijo6q0epvj2qg4n.apps.googleusercontent.com",
+        "EXPO_PUBLIC_ANDROID_CLIENT_ID": "815435126405-deorlads6hebgmkuaunlauc65vcndamk.apps.googleusercontent.com",
+        "EXPO_PUBLIC_FACEBOOK_APP_ID": "1427320737980320",
+        "EXPO_PUBLIC_GOOGLE_PLACES_API": "AIzaSyAsEyntIOPKup0qoalW4AUKuAiuo6IeMiI",
+        "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_51QkLTWRpGvQsz2528XRVq8Fx7eN3RZsSiLd5dHfvIlLKh1pzFQP3MSGszDq4zFw6UPd2x6xK8TcL0XGdUfTYsR1O005Rq36v5Z",
+        "EXPO_PUBLIC_REDIRECT_CALENDLY": "https://calendly.com/raghavmehra8991/astrology?utm_campaign=",
+        "EXPO_PUBLIC_CRYPTO_SECRET_KEY": "kasfksalafkgaks3423jaskfansfkafnkasfjksafnjsfk3242k4lasfmlmfalfslkfasnflasfl324342",
+        "EXPO_PUBLIC_AUDIO_SECRET_KEY": "a3d9f6e8c4b1d3e8a2f7b6d9e4c5a1b2f8d9e7c6a3b5f1d8c2e7a4b9d5c6e3f",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+      }
+    },
+    "production": {
+      "distribution": "store",
+      "ios": {
+        "buildConfiguration": "Release"
+      },
+      "env": {
+        "EXPO_PUBLIC_BASE_URL": "https://backend.thelunarapp.com",
+        "EXPO_PUBLIC_API_VERSION": "/api/v1",
+        "EXPO_PUBLIC_API_KEY": "abc123",
+        "EXPO_PUBLIC_WEB_CLIENT_ID": "127341618384-jc8tlucl21qs11iduilooqg556n914mh.apps.googleusercontent.com",
+        "EXPO_PUBLIC_IOS_CLIENT_ID": "127341618384-4eapq3qd6fsh6vm29mu4eevu1jpc23mr.apps.googleusercontent.com",
+        "EXPO_PUBLIC_ANDROID_CLIENT_ID": "127341618384-kj793pe3estr9rdbhteo4mmo1igbn7bo.apps.googleusercontent.com",
+        "EXPO_PUBLIC_FACEBOOK_APP_ID": "1427320737980320",
+        "EXPO_PUBLIC_GOOGLE_PLACES_API": "AIzaSyAsEyntIOPKup0qoalW4AUKuAiuo6IeMiI",
+        "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_live_51QkLTN2K9MUFcAuXUbFi8tVyDEbARYDBLd7j8vWBqPoCKQLxpomo23tm8KSlWB2lPNDI5TDSexjzTyemFNijiPjG00AmRIrzyd",
+        "EXPO_PUBLIC_REDIRECT_CALENDLY": "https://calendly.com/raghavmehra8991/astrology?utm_campaign=",
+        "EXPO_PUBLIC_CRYPTO_SECRET_KEY": "kasfksalafkgaks3423jaskfansfkafnkasfjksafnjsfk3242k4lasfmlmfalfslkfasnflasfl324342",
+        "EXPO_PUBLIC_AUDIO_SECRET_KEY": "a3d9f6e8c4b1d3e8a2f7b6d9e4c5a1b2f8d9e7c6a3b5f1d8c2e7a4b9d5c6e3f",
+        "NPM_CONFIG_LEGACY_PEER_DEPS": "true"
+      },
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
